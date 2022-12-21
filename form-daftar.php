@@ -7,34 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulir Pendaftaran Akun Baru</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <html>
 <body>
     <header>
-        <h1><a href="index.php">Portal SMK Coding</a></h1>
+        <h1><a href="index.php">SIPMABA</a></h1>
     </header>
     <div class=" formContainer" style="margin-top: 80px; margin-bottom: 80px">
-        <h2 style="margin-bottom: 40px;">Form Pendaftaran Calon Siswa</h2>
+        <h2 style="margin-bottom: 40px;">Form Pendaftaran Siswa</h2>
         <div class="container">
             <form id="formMahasiswa" autocomplete="off" action="proses-pendaftaran.php" method="POST">
                 <div class="form-group">
-                    <label for="nama">Nama</label>
-                    <input type="text" name="nama" placeholder="Nama Lengkap Calon Siswa" class="form-control" minlength="3" maxlength="40">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" name="nama" placeholder=" " class="form-control" minlength="3" maxlength="40">
                 </div>
                 <div class="form-group">
-                    <label for="alamat">Alamat</label>
-                    <textarea name="alamat" class="form-control" placeholder="Alamat Lengkap Siswa"></textarea>
+                    <label for="alamat">Alamat Domisili</label>
+                    <textarea name="alamat" class="form-control" placeholder=" "></textarea>
                 </div>
                 <div class="form-group">
                     <label for="sekolah_asal">Sekolah Asal</label>
-                    <input type="text" name="sekolah_asal" placeholder="Sekolah Asal Calon Siswa" class="form-control" minlength="1">
+                    <input type="text" name="sekolah_asal" placeholder=" " class="form-control" minlength="1">
                 </div>
                 <div class="form-group">
                     <label for="agama">Agama</label>
                     <select name="agama" class="form-control">
-                        <option>Pilih Agama Calon Siswa</option>
                         <option>Islam</option>
                         <option>Kristen</option>
                         <option>Hindu</option>
@@ -52,7 +51,7 @@
         </div>
     </div>
     <footer>
-        <h6>Copyright 2022 | SMK Coding | Doanda Dresta Rahma</h6>
+        <h6>Copyright 2022 | Doanda Dresta Rahma</h6>
     </footer>
 </body>
 </html>

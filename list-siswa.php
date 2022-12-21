@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pendaftaran Siswa Baru | SMK Coding</title>
+    <title>Pendaftaran Siswa Baru | Pendaftaran Siswa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <style>
         .custab {
@@ -28,14 +28,14 @@
 
 <body>
     <header style="margin-bottom: 20px;">
-        <h1><a href="index.php">Portal SMK Coding</a></h1>
+        <h1><a href="index.php">Portal Pendaftaran Siswa</a></h1>
     </header>
 
     <h2>List Daftar Calon Siswa</h2>
 
     <div class=" container" style="margin-top:20px; margin-bottom: 40px">
             <p style="text-align: right; margin:15px">
-                <a href=" form-daftar.php" class="btn btn-primary btn-xs col-md-3">[+] Tambah Baru</a>
+                <a href=" form-daftar.php" class="btn btn-primary btn-xs col-md-3">Daftarkan Baru</a>
             </p>
             <div class="col-md-12 col-md-offset-2 custyle">
                 <table class="table table-striped custab">
@@ -82,7 +82,7 @@
             </div>
 
             <footer>
-                <h6>Copyright 2022 | SMK Coding | Doanda Dresta Rahma</h6>
+                <h6>Copyright 2022 | Doanda Dresta Rahma</h6>
             </footer>
 
 </body>

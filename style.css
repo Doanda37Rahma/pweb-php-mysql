@@ -3,9 +3,9 @@
 .formContainer {
   margin-right: auto;
   margin-left: auto;
-  width: 1000px;
-  background-color: #f2f5f5;
-  border-radius: 20px;
+  width: 700px;
+  background-color: #363636;
+  border-radius: 10px;
   height: auto;
   padding: 70px;
 }
@@ -15,33 +15,38 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #1d1d1d;
 }
 
 h1 {
   text-align: center;
   font-weight: bolder;
-  color: #ffffff;
+  color: #1d46ce;
 }
 
 h2 {
   text-align: center;
   font-weight: bolder;
-  color: #000000;
+  color: #1d46ce;
 }
 
 h3 {
   text-align: center;
   font-weight: bolder;
-  color: #000000;
+  color: #1d46ce;
 }
 
 a {
-  color: #ffffff;
+  color: #1c28d1;
   text-decoration: none;
 }
 
+p, label {
+  color: white;
+}
+
 header {
-  background-color: #2db134;
+  background-color: #363636;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -53,7 +58,7 @@ header img {
 }
 
 footer {
-  background-color: #2db134;
+  background-color: #363636;
   margin-top: auto;
   display: flex;
   flex-direction: column;
@@ -71,14 +76,14 @@ footer h6 {
 .btn-primary {
   font-weight: 400;
   color: whitesmoke;
-  background-color: #2db134;
-  border-color: #2db134;
+  background-color: #696868;
+  border-color: #696868;
 }
 
 .btn-primary:hover {
   color: whitesmoke;
-  background-color: #90f88c;
-  border-color: #90f88c;
+  background-color: #9a9b9a;
+  border-color: #858585;
 }
 
 label {
@@ -87,10 +92,10 @@ label {
 
 .form-group {
   margin: 5px 0px 15px 0px;
+  color: white;
 }
 
-#prevLink {
-  text-align: center;
-  font-weight: 400;
-  color: #2db134;
+table * {
+  color: white;
 }
+

@@ -23,14 +23,14 @@ if (mysqli_num_rows($query) < 1) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulir Edit Siswa | SMK Coding</title>
+    <title>Formulir Edit Siswa | Pendaftaran Siswa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1><a href="index.php">Portal SMK Coding</a></h1>
+        <h1><a href="index.php">Portal Pendaftaran Siswa</a></h1>
     </header>
     <div class=" formContainer" style="margin-top: 80px; margin-bottom: 80px">
         <h2 style="margin-bottom: 40px;">Form Edit Data Siswa</h2>
@@ -72,7 +72,7 @@ if (mysqli_num_rows($query) < 1) {
         </div>
     </div>
     <footer>
-        <h6>Copyright 2022 | SMK Coding | Doanda Dresta Rahma</h6>
+        <h6>Copyright 2022 | Doanda Dresta Rahma</h6>
     </footer>
 </body>
 
